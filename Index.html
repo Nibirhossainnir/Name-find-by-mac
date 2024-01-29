@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"  href="find-location.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Name</title>
+</head>
+<body>
+    <div class="main">
+        <div class="mess">
+            This roll not found!
+        </div>
+        <div>
+            <input type="text" id="searchBar" placeholder="Type MAC Address..." autofocus>
+        </div>
+
+        <div>
+            <button id="searchBtn">Search</button>
+        </div>
+        <span class="a_namelist">You can see full <a href="namelist.html" target="_blank">name list</a>.</span>
+        <div class="popup">
+            <div class="in_popup">
+                <i>MAC Address:<span id="ppR"></span> </i><br>  
+                <i>Name:<span id="ppN"></span></i><br> 
+                <button id="ok">OK</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
